@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+}
+section {
+	background: lightgray;
+	height: 100vh;
+}
+section > * {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+section > div {
+	height: 1.5cm;
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+}
+section#result {
+	display: none;
+}
+h1 {
+	padding-top: 2em;
+	margin-top: 0;
+	text-align: center;
+	font-size: 500%;
+}
+#color-picker {
+	background: linear-gradient(to right, 
+	black, 
+	#701C1C,
+	#D88E0D,
+	#E6E616,
+	green,
+	rgb(7, 144, 218),
+	indigo,#CA62CA, #E91414, white, grey);
+}
+#gråskala {
+	background: linear-gradient(to right, white, black);
+}
