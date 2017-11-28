@@ -99,4 +99,6 @@ function nextWord() {
 		}, 10000)
 	}
 }
-nextWord()
+document.addEventListener('DOMContentLoaded', function() {
+	nextWord()
+}, false);
