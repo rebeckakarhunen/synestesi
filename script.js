@@ -70,8 +70,7 @@ picker.onclick = (ev) => {
 		const x = (p - 9 / 10) * 10
 		console.log(x)
 		color = new Color(interpolate(x, 255, 128), interpolate(x, 255, 128), interpolate(x, 255, 128))
-		console.log("10")	
-	
+		console.log("10")
 	}
 	// console.log(color)
 	console.log(color.toString())
