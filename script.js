@@ -100,5 +100,6 @@ function nextWord() {
 	}
 }
 document.addEventListener('DOMContentLoaded', function() {
+	alert("startar")
 	nextWord()
 }, false);
